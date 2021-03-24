@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1300px) {
+  bady{
+    background: linear-gradient(to right, black, purple) no-repeat 90% / clamp(20rem,35vw,30rem);
+  }
+
+  header {
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
+
+}
+
+
