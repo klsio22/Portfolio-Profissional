@@ -34,6 +34,11 @@ h3 {
   border-bottom: 1px solid rgb(255, 255, 255);
 }
 
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
 main{
  background: linear-gradient(to bottom , gray,rgb(138, 117, 194));
  border-radius: 1rem;

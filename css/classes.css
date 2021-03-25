@@ -39,8 +39,22 @@
 
 .other-contacts{
   margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.other-contacts a {
+  margin-right: 1rem;
+  padding: 0.4rem;
+}
+
+.other-contacts a img {
+  width: 40px;
+}
+
 
 .other-contacts p{
   margin-bottom: 15px;
+ 
 }
