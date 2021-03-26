@@ -12,7 +12,6 @@
   } 
 
   header {
-
     flex-direction: column;
   }
 
@@ -33,42 +32,42 @@
   
   .conteiner {
     font-size: 22px;
-    width: 335px;
+    width: 740px;
   }
-
+  
   .name {
     font-size: 20px;
-
+    width: auto;
   }
 
   .personal-data {
     font-size: 22px;
+    width: 80%;
   }
 
-  main h2 {
-    font-size: 26px;
-  }
 
   .info h3{
-    font-size: 18px;
+    font-size: 30px;
   }
 
   main p {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   footer {
-    font-size: 18px;
+    font-size: 22px;
   }
 }
 
 @media (max-width: 450px) {
-  .name {
-    font-size: 20px;
+
+  .conteiner {
+    width: 370px;
   }
 
   .personal-data {
-    font-size: 22px;
+    font-size: 20px;
+    width: 90%;
   }
   main {
     font-size: 25px;
@@ -83,3 +82,8 @@
   }
 
 }
+
+
+
+
+
