@@ -2,17 +2,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
+:root{
+  --espaçamento-padrão:1rem;
+}
+
+
 body {
+  margin: auto;
   display:block;
   max-width: 1300px;
   min-width: 860px;
   height: 100vh;
   color: rgb(224, 216, 216);
   background-image: linear-gradient(to right, black, purple);
-  font: 400 1.2rem/1 "Nunito", sans-serif;
   padding: 5rem 12rem; 
+  font: 400 1.2rem/1 "Nunito", sans-serif;
 }
 
 header {
@@ -23,7 +30,7 @@ header {
 }
 
 figure {
-  padding:1rem;
+  padding:var(--espaçamento-padrão);
 }
 
 h2 {
@@ -50,16 +57,8 @@ main{
 footer{
   text-align: center;
   background: rgb(59, 57, 57);
-  margin: 1rem;
-  padding:1rem;
-  border-radius: 1rem;
+  padding:var(--espaçamento-padrão);
+  border-radius: var(--espaçamento-padrão);
   font-style: italic;
-  font-size: 1.1rem;
+  font-size: var(--espaçamento-padrão);
 }
-
-
-
-
-
-
-
