@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+  .conteiner {
+    padding: 2rem;
+  }
+
+  main p {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  footer{
+    font-size: 1.7rem;
+  }
+
+  footer a img {
+    width: 4rem;
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
+
+
+}

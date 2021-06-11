@@ -2,17 +2,40 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
-:root{
+:root {
   --espaçamento-padrão: 1rem;
-  --cor-fundo-primaira: linear-gradient(to bottom , rgb(104, 21, 21),rgb(0, 0, 0));
-  --cor-fundo-secudaria:linear-gradient(to bottom , rgb(0,0,0),rgb(89, 31, 128));
+  --cor-fundo-primaira: linear-gradient(
+    to bottom,
+    rgb(104, 21, 21),
+    rgb(0, 0, 0)
+  );
+  --cor-fundo-secudaria: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0),
+    rgb(89, 31, 128)
+  );
 }
 
-
-html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+html,
+body,
+figure,
+img,
+div,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+main {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -29,7 +52,7 @@ header {
 }
 
 figure {
-  padding:var(--espaçamento-padrão);
+  padding: var(--espaçamento-padrão);
 }
 
 h2 {
@@ -38,38 +61,72 @@ h2 {
 
 h3 {
   border-bottom: 3px solid rgb(255, 255, 255);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   overflow-wrap: break-word;
+  padding-bottom: 0.3rem;
 }
 
-a{
+a {
   text-decoration: none;
   color: aliceblue;
 }
 
-main p{
+main p {
   text-align: center;
   padding: var(--espaçamento-padrão);
 }
 
-main{
- background: var(--cor-fundo-primaira);
- border-radius: var(--espaçamento-padrão);
- margin: 1rem 0;
- padding :var(--espaçamento-padrão);
- text-align: center;
+main {
+  font-size: 25px;
+  background: var(--cor-fundo-primaira);
+  border-radius: var(--espaçamento-padrão);
+  margin: 1rem 0;
+  padding: var(--espaçamento-padrão);
+  text-align: center;
 }
 
-footer{
+footer {
   text-align: center;
   background: var(--cor-fundo-secudaria);
-  padding:var(--espaçamento-padrão);
+  padding: var(--espaçamento-padrão);
   border-radius: var(--espaçamento-padrão);
   font-style: italic;
   font-size: 1.2rem;
 }
 
-footer a img{
-  width : 3rem;
+footer a img {
+  width: 3rem;
 }
 
+/* Classes */
+
+.conteiner {
+  background: rgb(73, 73, 73);
+  color: rgb(224, 216, 216);
+  background-image: linear-gradient(to right, black, purple);
+  font: 400 1.2rem/1 "Nunito", sans-serif;
+}
+
+.img-profile figure img {
+  border-radius: 40px;
+}
+
+.name {
+  background: rgb(61, 49, 167);
+  font-size: 1.3rem;
+  border-radius: var(--espaçamento-padrão);
+  padding: 1.5rem;
+}
+
+.contacts {
+  padding: 1rem;
+}
+
+.other-contacts a {
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+.info {
+  padding: var(--espaçamento-padrão);
+}
