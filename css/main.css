@@ -103,7 +103,7 @@ footer a img {
 .conteiner {
   background: rgb(73, 73, 73);
   color: rgb(224, 216, 216);
-  background-image: linear-gradient(to right, black, purple);
+  background-image: linear-gradient(to right, rgb(24, 23, 23), purple);
   font: 400 1.2rem/1 "Nunito", sans-serif;
 }
 
@@ -112,7 +112,7 @@ footer a img {
 }
 
 .name {
-  background: rgb(61, 49, 167);
+  background: rgb(89, 53, 189);
   font-size: 1.3rem;
   border-radius: var(--espaçamento-padrão);
   padding: 1.5rem;
