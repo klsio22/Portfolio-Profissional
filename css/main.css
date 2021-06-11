@@ -6,16 +6,18 @@
 }
 
 :root{
-  --espaçamento-padrão:1rem;
+  --espaçamento-padrão: 1rem;
+  --cor-fundo-primaira: linear-gradient(to bottom , rgb(104, 21, 21),rgb(0, 0, 0));
+  --cor-fundo-secudaria:linear-gradient(to bottom , rgb(0,0,0),rgb(89, 31, 128));
 }
 
 
-body {
-  width: 95%;
-  padding: 5rem 12rem;
-  color: rgb(224, 216, 216);
-  background-image: linear-gradient(to right, black, purple);
-  font: 400 1.2rem/1 "Nunito", sans-serif;
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
 header {
@@ -23,6 +25,7 @@ header {
   align-items: center;
   justify-content: space-between;
   text-align: center;
+  flex-direction: column;
 }
 
 figure {
@@ -34,7 +37,9 @@ h2 {
 }
 
 h3 {
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 3px solid rgb(255, 255, 255);
+  font-size: 1.5rem;
+  overflow-wrap: break-word;
 }
 
 a{
@@ -42,19 +47,29 @@ a{
   color: aliceblue;
 }
 
+main p{
+  text-align: center;
+  padding: var(--espaçamento-padrão);
+}
+
 main{
- background: linear-gradient(to bottom , gray,rgb(138, 117, 194));
- border-radius: 1rem;
+ background: var(--cor-fundo-primaira);
+ border-radius: var(--espaçamento-padrão);
  margin: 1rem 0;
- padding :1rem;
+ padding :var(--espaçamento-padrão);
  text-align: center;
 }
 
 footer{
   text-align: center;
-  background: rgb(59, 57, 57);
+  background: var(--cor-fundo-secudaria);
   padding:var(--espaçamento-padrão);
   border-radius: var(--espaçamento-padrão);
   font-style: italic;
-  font-size: var(--espaçamento-padrão);
+  font-size: 1.2rem;
 }
+
+footer a img{
+  width : 3rem;
+}
+

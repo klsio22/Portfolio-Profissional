@@ -1,0 +1,129 @@
+@media (min-width: 720px) {
+  .conteiner {
+    background: rgb(73, 73, 73);
+    padding: 5rem 12rem;
+    color: rgb(224, 216, 216);
+    background-image: linear-gradient(to right, black, purple);
+    font: 400 1.2rem/1 "Nunito", sans-serif;
+  }
+  
+  .info {
+    padding: var(--espaçamento-padrão);
+  }
+  
+  .info p {
+    padding-top: var(--espaçamento-padrão);
+  }
+  
+  .name {
+    background: rgb(61, 49, 167);
+    font-size: 1.3rem;
+    border-radius: var(--espaçamento-padrão);
+    padding: 1.5rem;
+  }
+  
+  .img-profile figure img {
+    border-radius: 50px;
+  }
+  
+  .personal-data {
+    background: rgb(61, 49, 167);
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  
+  .contacts{
+    border-bottom: 1px solid rgb(102, 157, 179);
+    padding: 10px 0;
+  }
+  
+  .other-contacts{
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .other-contacts a {
+    margin-right: 1rem;
+    padding: 0.4rem;
+  }
+  
+  .other-contacts a img {
+    width: 40px;
+  }
+  
+  .other-contacts p{
+    margin-bottom: 15px;
+   
+  }
+
+  .info {
+    padding: 1rem;
+  }
+
+  header {
+    font-size: 30px;
+  }
+
+  main h2 {
+    font-size: 23px;
+  } 
+
+  main p {
+    font-size: 22px;
+  }
+
+  footer {
+    font-size: 20px;
+  }
+}
+/*
+@media (max-width: 800px) {
+  
+  .conteiner {
+    font-size: 22px;
+    width: 740px;
+  }
+  
+  .name {
+    font-size: 20px;
+    width: auto;
+  }
+
+  .personal-data {
+    font-size: 22px;
+    width: 80%;
+  }
+
+  main p {
+    font-size: 25px;
+  }
+
+  footer {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 440px) {
+
+  .conteiner {
+    width: 390px;
+  }
+
+  .personal-data {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  main {
+    font-size: 25px;
+  }
+
+  main p {
+    font-size: 20px;
+  }
+
+}
+ */
